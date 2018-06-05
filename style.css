@@ -1,0 +1,100 @@
+/*
+style.css
+---------
+ 
+Par Jordi Chavarria
+*/
+ 
+p
+{
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+p
+{
+    color: #00000; /* Les paragraphes seront en noire */
+    font-size: 14px;
+}
+
+
+.introduction 
+{
+	color: blue;
+	text-align: center;
+}
+
+.introduction2
+{
+	color: red;
+	text-align: center;
+}
+
+.liste
+{
+	color: brown;
+	clear: both;
+}
+
+.imageflottante
+{
+	float: left;
+}
+aside
+
+{
+	text-align: center;
+}
+h1
+{
+	text-align: center;
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+p
+{
+	align-items: center;
+}
+
+ul
+{
+	border-style: solid;
+	box-shadow: 2px 2px 10px #666;
+}
+
+a:link { color: #000000; }
+a:visited { color: #000000; }
+a:hover { color: #000000; font-weight: bold; }
+
+h1, h2
+{
+    color: green;
+}
+
+.yes
+{
+	text-align: center;
+	color: red;
+	font-size: 60px;
+
+}
+
+.yeah
+{
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto
+
+
+}	
